@@ -1,0 +1,73 @@
+<html>
+    <head>
+      
+        <style>
+            h1{
+                background-color: #222529;
+             
+                font-family: 'Times New Roman', Times, serif;
+                color: lavender;
+                text-align: center;
+                display: inline;
+                padding: 50px;
+                
+                
+            }
+            img{
+                background-color: blanchedalmond;
+                width:150px;
+               
+            }
+        </style>
+        <script>
+
+            function validate(){
+                document.getElementById("Warning").innerHTML = ""
+                validateFS();
+                validateE();
+            }
+            function validateFS() {
+                var Firstname = document.getElementById("Firstname").value;
+                var Surname = document.getElementById("Surname").value;
+                if (Firstname == "" || Surname == "") {
+                    document.getElementById("Warning").innerHTML += "<p>You must enter a " + ( Firstname == "" ? "first name" : "last name") + "</p>";
+                    document.getElementById("Warning").style.color = "Red";
+                }
+            }
+            function validateE(){
+                var Email = document.getElementById("Email").value;
+                if(Email == "" || PhoneNumber){
+                    document.getElementById("Warning").innerHTML += "<p>You must enter " + (Email == "" ? "Email" : "PhoneNumber") + "</p>"
+                    document.getElementById("Warning").style.color = "Red";
+                }
+            }
+        </script>
+        <body>
+                <table width = 100%>
+                    <tr>
+                        <td style = "float:right;">  <img src = "BEANS.png" ></td>
+                        <td style = "background-color: #222529;"> <h1> Application Form</h1></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <p></p> Please complete the form below
+                            <form>
+                                <p>First name: <input type = "text" id = "Firstname"></p>
+                                <p>Surname: <input type = "text" id = "Surname"></p>
+                                <p>Email: <input type = "text" id = "Email"></p>
+                                <p>Phone Number: <input type = "tel" id = "PhoneNumber"></p>
+                                <p>Preferred time:</p>
+                                <ul>
+                                    <li>Morning: <input type ="checkbox"></li>
+                                    <li>Afternoon <input type ="checkbox"> </li>
+                                </ul>
+                                <p id = "Warning"></p>
+                                <button type = "button" onclick="validate()">Submit</button> <input type = "Reset">
+                            </form>
+                        </td>
+                    </tr>
+                </table> 
+        </body>
+    </head>
+</html>
