@@ -32,7 +32,7 @@
                 text-align: center;
             }
 
-            img {
+            #logo {
                 background-color: blanchedalmond;
                 float: left;
                 max-width: 10%;
@@ -44,8 +44,12 @@
 
             #grad1 {
                 height: 75%;
+                text-align: center;
                 background-color: red; 
-                background-image: linear-gradient(360deg, black, white, #222529, whitesmoke);
+                background-image: linear-gradient(360deg, black, white, black, whitesmoke);
+            }
+            h3{
+                color: grey;
             }
         </style>
 
@@ -56,7 +60,8 @@
         <div class = "center">
             <h1>Hot Beans</h1>
         </div>
-            <img src = "BEANS.png" width = 25% >
+            <img src = "BEANS.png" id="logo" width = 25% > 
+            <img src= "https://raw.githubusercontent.com/rhel202/HOTBEANS/refs/heads/main/Office%20Environment.jpg" style = "float: right; max-width: 25%;">
             <div class = "center">
                 <h2>Hot Beans</h2>
                 <ul>
@@ -65,17 +70,15 @@
                     <li><a link href = ApplicationForm.html>Application Form</a></li>
                     <li><a link href = Courses.html>Courses</a></li>
                 </ul>
-                <h3 style="background-color:white; color: black;">We are a web developing company</h3>
+                <h3 style="background-color:white; color: #222529;">We are a web developing company</h3>
             </div>
-           
-        <div id = "grad1">
-            <h3>The company is located in Brighton.<br>The company was founded in 2010.</br>We are looking for people to join our team for web developing.<br>Benefits of working at Hot Beans are: 
+        <div class="center" id = "grad1">
+            <h3 style = "color:aliceblue;"><div id = "oneLine" style = "color:grey;">The company is located in Brighton.</div>The company was founded in 2010.</br>We are looking for people to join our team for web developing.<br>Benefits of working at Hot Beans are: 
             <ul>
                 <li>Free gym access</li>
-                <li>Canteen with each person get £10 to spent on the food</li>
+                <li style = "color:grey;">Canteen with each person get £10 to spent on the food</li>
             </ul>
         </br></h3>
         </div>
     </body>
-    
 </html>
