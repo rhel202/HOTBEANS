@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Courses</title>
+    </head>
+    <body>
+    <div class = "center"> 
+        <h1>Courses</h1>
+    </div>
+    <img src = "BEANS.png" width = 25% >
+    </body>
+    <style>
+        .center {
+            text-align: center;
+            background-color: #222529;
+            color: lavender;
+            max-width: 50%;
+            margin: auto;
+        }
+        img {
+                background-color: blanchedalmond;
+                float: left;
+                max-width: 10%;
+        }
+    </style>
+</html>
