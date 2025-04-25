@@ -7,6 +7,7 @@
         <h1>Courses</h1>
     </div>
     <img src = "BEANS.png" width = 25% >
+    <img src= "https://raw.githubusercontent.com/rhel202/HOTBEANS/refs/heads/main/Types-of-courses-1024x1024.webp" style = "float: right; max-width: 20%;">
     </body>
     <style>
         .center {
