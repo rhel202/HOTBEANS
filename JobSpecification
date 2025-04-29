@@ -1,0 +1,48 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <img src = "BEANS.png" id="logo" width = 25% > 
+        <h1>The Job Specifications</h1>
+        <table>
+            <tr>
+                <td>
+                    <h2 style ="text-align: left;">Web Designer Junior
+                        <ul>
+                            <li>Need to know CSS and HTML</li>
+                            <li>Need to Level 3 in IT or related expirence</li>
+                            <li>Have an open mind for ideas</li>
+            
+                        </ul>
+                    </h2>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <h2 style = "text-align: center;">Web Developer
+                        <ul>
+                            <li>Need to know JavaScript</li>
+                            <li>Be knowledgeable about JavaScript</li>
+                            <li>Have some experience about JavaScript</li>
+                        </ul>
+                    </h2>
+                </td>
+            </tr>
+        </table>
+</body>
+    <style>
+            #logo {
+            background-color: blanchedalmond;
+            max-width: 10%;
+            }
+            h1{
+                text-align:center;
+                background-color: #222529;
+                color: white;
+                max-width: 50%;
+                margin: auto;
+            }
+    </style>
+</html>
