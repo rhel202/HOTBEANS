@@ -1,9 +1,31 @@
 <html>
     <body>
-        <h1>Meet Our Team</h1>
-        <img src = "https://raw.githubusercontent.com/rhel202/HOTBEANS/refs/heads/main/thispersondoesnotexist.jpg" style = "max-width: 25%;">
-        
+        <h1>Hot Beans</h1>
+        <img src = "BEANS.png" id="logo" width = 25% > 
+        <table>
+            <tr>
+                <td>
+                    <h2>Meet Our Team<br>Team Memebers</h2>
+                    <img src = "https://raw.githubusercontent.com/rhel202/HOTBEANS/refs/heads/main/guywiththebeard.jpg" style = "max-width: 25%;">
+                    <p>Emma Reynolds</p>
+                    <p>Senior Web Designer</p>
+                    <img src = "https://raw.githubusercontent.com/rhel202/HOTBEANS/354fa7a682cdf6b08dbf3d46634a131e2f6f2e83/thispersondoesnotexist.jpg" style = "max-width: 25%;">
+                    <p>Winston Mozzer</p>
+                    <p>Design Development</p>
+                    <img src = "https://raw.githubusercontent.com/rhel202/HOTBEANS/refs/heads/main/sunglasseswoman.jpg" style = "max-width: 25%;">
+                    <p>Bruce Hill</p>
+                    <p>Design Manager</p>
+                </td>
+            </tr>
+        </table>
+        <a href = "Hot Beans.html">To go to the home page</a>
+        <a href = "JobSpecification.html">To go to the next page</a>
     </body>
     <style>
+         #logo {
+                background-color: blanchedalmond;
+                float: left;
+                max-width: 10%;
+            }
     </style>
 </html>
