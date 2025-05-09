@@ -1,48 +1,44 @@
 <html>
     <head>
-      
-        <style>
-            h1{
-                background-color: #222529;
-             
-                font-family: 'Times New Roman', Times, serif;
-                color: lavender;
-                text-align: center;
-                display: inline;
-                padding: 50px;
-                
-                
-            }
-            img{
-                background-color: blanchedalmond;
-                width:150px;
-               
-            }
-        </style>
-        <script>
-
-            function validate(){
-                document.getElementById("Warning").innerHTML = ""
-                validateFS();
-                validateE();
-            }
-            function validateFS() {
-                var Firstname = document.getElementById("Firstname").value;
-                var Surname = document.getElementById("Surname").value;
-                if (Firstname == "" || Surname == "") {
-                    document.getElementById("Warning").innerHTML += "<p>You must enter a " + ( Firstname == "" ? "first name" : "last name") + "</p>";
-                    document.getElementById("Warning").style.color = "Red";
-                }
-            }
-            function validateE(){
-                var Email = document.getElementById("Email").value;
-                if(Email == "" || PhoneNumber){
-                    document.getElementById("Warning").innerHTML += "<p>You must enter " + (Email == "" ? "Email" : "PhoneNumber") + "</p>"
-                    document.getElementById("Warning").style.color = "Red";
-                }
-            }
-        </script>
         <body>
+            <style>
+                h1{
+                    background-color: #222529;
+                    font-family: 'Times New Roman', Times, serif;
+                    color: lavender;
+                    text-align: center;
+                    display: inline;
+                    padding: 50px;
+                }
+                img{
+                    background-color: blanchedalmond;
+                    width:150px;
+               
+                }
+            </style>
+                <script>
+                function validate(){
+                    document.getElementById("Warning").innerHTML = ""
+                    validateFS();
+                    validateE();
+                }
+                function validateFS() {
+                    var Firstname = document.getElementById("Firstname").value;
+                    var Surname = document.getElementById("Surname").value;
+                    if (Firstname == "" || Surname == "") {
+                        document.getElementById("Warning").innerHTML += "<p>You must enter a " + ( Firstname == "" ? "first name" : "last name") + "</p>";
+                        document.getElementById("Warning").style.color = "Red";
+                    }
+                }
+                    function validateE(){
+                    var Email = document.getElementById("Email").value;
+                    if(Email == "" || PhoneNumber){
+                        document.getElementById("Warning").innerHTML += "<p>You must enter " + (Email == "" ? "Email" : "PhoneNumber") + "</p>"
+                        document.getElementById("Warning").style.color = "Red";
+                        }
+                    }
+                </script>
+        
                 <table width = 100%>
                     <tr>
                         <td style = "float:right;">  <img src = "BEANS.png" ></td>
@@ -56,7 +52,7 @@
                                 <p>First name: <input type = "text" id = "Firstname"></p>
                                 <p>Surname: <input type = "text" id = "Surname"></p>
                                 <p>Email: <input type = "text" id = "Email"></p>
-                                <p>Phone Number: <input type = "tel" id = "PhoneNumber"></p>
+                                <p>Phone Number: <input type = "text" id = "PhoneNumber"></p>
                                 <p>Preferred time:</p>
                                 <ul>
                                     <li>Morning: <input type ="checkbox"></li>
@@ -67,7 +63,10 @@
                             </form>
                         </td>
                     </tr>
-                </table> 
+                </table>
+                <a href = "JobSpecification.html">To go to the previous page</a>
+                <a href = "Hot Beans.html">To go to the home page</a>
+                <a href = "Courses.html">To go to the next page</a>
         </body>
     </head>
 </html>
