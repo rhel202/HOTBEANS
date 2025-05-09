@@ -24,6 +24,8 @@
             <td><a href = "https://www.w3schools.com"><img src = "JS.png" width = "30%"></a></td>
     </tr>
     </table>
+    <a href = "ApplicationForm.html">To go to the previous page</a>
+    <a href = "Hot Beans.html">To go to the home page</a>
     </body>
     <style>
         .center {
