@@ -31,6 +31,9 @@
                 </td>
             </tr>
         </table>
+        <a href = "ApplicationForm.html">Here to apply for any available positions</a>
+        <a href = "MeetOurTeam.html">To go to the previous page</a>
+        <a href = "Hot Beans.html">To go to the home page</a>
 </body>
     <style>
             #logo {
