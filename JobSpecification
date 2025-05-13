@@ -54,7 +54,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
 
         <div class = "center">
-            <a href = "Hot Beans.html"><img src = "BEANS.png" id="logo" width = 25% ></a> 
+            <a href = "Hot Beans.html"><img src = "BEANS.png" id="logo" width = 25% ></a>
+            <a href = "Courses.html"><img src = "w3schools.png" style = "float: right;" width = 10%></a>
             <h1 style = "font-size:52pt; height:10%">Hot Beans</h1>
             
    
