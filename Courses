@@ -1,54 +1,74 @@
-<html>
+<<html>
     <head>
+        <style>
+           #logo {
+                background-color: blanchedalmond;
+                float: left;
+                max-width: 10%;
+            }
+         .center {
+                text-align: center;
+                background-color: #222529;
+                color: lavender;
+                max-width: 50%;
+                margin: auto;
+            }
+
+            .center li a {
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                background-color: #222529;
+                color: whitesmoke;
+                float: left;
+                width: 25%;
+            }
+
+            .center ul {
+                margin: auto;
+                padding: 0;
+                list-style-type: none;
+                overflow: hidden;
+                width: 100%;
+            }
+            h2{
+                text-align: center;
+            }
+        </style>
         <title>Courses</title>
     </head>
     <body>
-    <div class = "center"> 
-        <h1>Courses</h1>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+        <div class = "center"> 
+            <a href = "Hot Beans.html"><img src = "BEANS.png" id="logo" width = 25% ></a>
+            <img src = "w3schools.png" style = "float: right;" width = 10%>
+            <h1 style = "font-size:52pt; height:10%">Hot Beans</h1>
+        </div>
+            <div class = "center">
+              
+                <h2></h2>
+                <ul>
+                    <li><a link href = MeetOurTeam.html>Meet Our Team</a></li>
+                    <li><a link href = JobSpecification.html>Job specification</a></li>
+                    <li><a link href = ApplicationForm.html>Application Form</a></li>
+                    <li><a link href = Courses.html>Courses</a></li>
+                </ul>
     </div>
-    <img src = "BEANS.png" width = 10% >
-    <img src= "w3schools.png" style = "float: right;" width = 10%>
-
     <h2>Courses</h2>
     <h2>Click on the image to start learning</h2>
     <table>
         <tr>
-            <td><a href = "https://www.w3schools.com"><img src = "HTMl.PNG" width = "30%"></a></td>
+            <td><a href = "https://www.w3schools.com"><img src = "HTMl.PNG" width = "30%" style = "float: right;"></a></td>
             </tr>
             <tr>
 
           
-            <td><a href = "https://www.w3schools.com"><img src = "CSS.png" width = "30%"></a></td>
+            <td><a href = "https://www.w3schools.com"><img src = "CSS.png" width = "30%" style = "float: right;"></a></td>
         </tr>
         <tr>
-            <td><a href = "https://www.w3schools.com"><img src = "JS.png" width = "30%"></a></td>
-    </tr>
+            <td><a href = "https://www.w3schools.com"><img src = "JS.png" width = "30%" style = "float: right;"></a></td>
+        </tr>
     </table>
-    <a href = "ApplicationForm.html">To go to the previous page</a>
-    <a href = "Hot Beans.html">To go to the home page</a>
     </body>
-    <style>
-        .center {
-            text-align: center;
-            background-color: #222529;
-            color: lavender;
-            max-width: 50%;
-            margin: auto;
-        }
-        img {
-                background-color: blanchedalmond;
-                float: left;
-                
-        }
-        h2{
-            float: center;
-        }
-        li {
-                display: block;
-                text-align: center;
-                text-decoration: none;
-                float: left;
-
-            }
-    </style>
 </html>
